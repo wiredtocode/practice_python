@@ -1,4 +1,4 @@
-#define a decorator function that 
+#define a decorator function that wraps another function
 
 def deco(func):
     def inner():
@@ -7,7 +7,7 @@ def deco(func):
 
 
 
-@deco
+@deco      #placed here to make it more readable
 def myfunc():
     return "Hello world"
 
