@@ -3,3 +3,4 @@ in a function
 
 - if you return a string "" it will be a type "str" if you return an int it will be type "int"
 
+- i figured this out while typing print in my function instead of return and got a nonetype error as i call it
