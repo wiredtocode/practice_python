@@ -1,0 +1,5 @@
+in a function
+-you have to return something or it will be none type even if you have a print() in it
+
+- if you return a string "" it will be a type "str" if you return an int it will be type "int"
+
