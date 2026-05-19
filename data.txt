@@ -1,0 +1,4 @@
+why context manager ?
+
+They gurentee that resources(files, database connections , locks) are properly relesed even if an error occurs. instead of messy try/finally block
+you get a clean with statement 
