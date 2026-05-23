@@ -6,3 +6,6 @@ you get a clean with statement
 
 OOP
 -provides clear structure to your programs
+- makes code easier to maintain reuse and debug
+-helps keep your code DRY ( do not repeat yourslef)
+- allows you to build reusable applications with less code
