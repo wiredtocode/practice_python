@@ -1,0 +1,7 @@
+data preprocessing
+1. So fill in gaps  with average, median, mode
+2.  remove incomplete rows 
+3. data  encoding of non numerical nata
+4. what should i scale ->
+      a. transaction ammount :min max normalization 
+5.  class imbalance 
