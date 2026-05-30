@@ -1,5 +1,10 @@
-import asyncio
+import asyncio,  aiofiles
+
+#coroutine is a blueprint 
+
 """
+
+
 import httpx
 import asyncio
 
@@ -12,9 +17,6 @@ async def fetch_data():   #this function is special it can pause and do somethin
 
 asyncio.run(fetch_data())
 
-"""
-#200 means request is sucessful
-
 
 async def some_function():
     print("start")
@@ -22,3 +24,37 @@ async def some_function():
     print("finished")
 
 asyncio.run(some_function())
+
+
+"""
+#200 means request is sucessful
+
+
+#Downloading stuff reading 
+
+#reading files 
+
+async def read_file_async(filename):
+    async with aiofiles.open(filename,mode='r') as f:
+        contents =await f.read()
+        print(contents)
+
+async def main():
+    await read_file_async('C:\\Users\\armin\\Desktop\\whatevr\\example.txt')
+
+
+asyncio.run(main())
+
+#fetching user information or check status 
+
+
+
+
+async def information_gathering(user_id):
+    name= await asyncio.sleep(3)
+    print('complited')
+
+
+#async func dont return immediately , evnt loop is asyncio.run sets up an event loop that runs the coroutine
+
+asyncio.run(information_gathering("as"))
