@@ -1,0 +1,21 @@
+timestamp,review,target
+2025-01-01 08:15:00,"Great product, arrived on time and works perfectly.",1
+2025-01-01 09:30:00,"Terrible quality, broke after one day.",0
+2025-01-01 10:45:00,"Excellent customer service and fast delivery.",1
+2025-01-01 12:00:00,"The item was okay but packaging was damaged.",0
+2025-01-01 13:20:00,"Very happy with my purchase.",1
+2025-01-01 14:10:00,"Not worth the money.",0
+2025-01-01 15:50:00,"Amazing experience, highly recommended.",1
+2025-01-01 17:05:00,"The product did not match the description.",0
+2025-01-01 18:40:00,"Good value for the price.",1
+2025-01-01 20:15:00,"Customer support was unhelpful.",0
+2025-01-02 07:30:00,"Fantastic build quality.",1
+2025-01-02 08:45:00,"I want a refund.",0
+2025-01-02 10:00:00,"Works exactly as expected.",1
+2025-01-02 11:20:00,"Shipping took far too long.",0
+2025-01-02 13:45:00,"Five stars, would buy again.",1
+2025-01-02 15:10:00,"The product stopped working after a week.",0
+2025-01-02 16:30:00,"Easy to use and reliable.",1
+2025-01-02 18:00:00,"Poor craftsmanship and cheap materials.",0
+2025-01-02 19:15:00,"Exceeded my expectations.",1
+2025-01-02 21:00:00,"Very disappointed with this purchase.",0
